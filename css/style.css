@@ -185,7 +185,7 @@
         padding: 50px 0;
         /* height: 1300px; */
         width: 80%;
-        border: 2px solid white;
+        border: 2px solid black;
     }
 
     .boxcard {
@@ -194,7 +194,11 @@
         border: 3px dashed black;
     }
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 481px) {
+        .container-benefits{
+            height: 700px;
+        }
+
         .cards-benefits {
             flex-wrap: wrap;
             flex-direction: row;
@@ -207,3 +211,40 @@
     }
 
     /* /FOURTH SECTION */
+
+    /* FIFTH SECTION */
+    .container-about {
+        justify-content: center;
+        /* height: 800px; */
+        width: 100%;
+        padding: 5px;
+        background-color: lightcoral;
+    }
+
+    .about-us {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* height: 750px; */
+        width: 100%;
+        border: 2px solid black;
+    }
+
+    .box-about-left {
+        height: 300px;
+        width: 80%;
+        border: 2px dashed black;
+    }
+
+    .box-about-right {
+        height: 300px;
+        width: 80%;
+        border: 2px dashed white;
+    }
+
+    @media screen and (min-width: 481px) {
+        .about-us {
+            flex-direction: row;
+        }
+    }
+    /* /FIFTH SECTION */
