@@ -26,6 +26,10 @@
         align-items: center;
     }
 
+    .w-30 {
+        width: 66%;
+    }
+
 
 
     /* HEADER */
@@ -68,6 +72,11 @@
     /* /HEADER */
 
     /* FIRST SECTION */
+
+    .container-section {
+        width: 100%;
+    }
+
     .cards {
         height: 1000px;
         width: 100%;
@@ -86,12 +95,16 @@
     @media screen and (min-width: 481px) {
         .cards {
             flex-wrap: wrap;
+            flex-direction: row;
             height: 500px;
         }
 
         .card {
-            width: 30%;
+            width: 31%;
             height: 200px;
-            align-items:flex-start;
+        }
+
+        .w-30 {
+            width: 64%;
         }
     }
