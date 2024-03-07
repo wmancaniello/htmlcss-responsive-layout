@@ -26,6 +26,10 @@
         align-items: center;
     }
 
+    .mgtop-20 {
+        margin-top: 20px;
+    }
+
     .w-30 {
         width: 66%;
     }
@@ -136,3 +140,70 @@
             width: 45%;
         }
     }
+
+    /* /SECON SECTION */
+
+    /* THIRD SECTION */
+    .container-testimonial {
+        height: 1000px;
+        width: 100%;
+        background-color: lightgoldenrodyellow;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial-text {
+        align-items: center;
+        flex-direction: column;
+        height: 200px;
+        width: 100%;
+        background-color: aqua;
+    }
+
+    .card-testimonial {
+        height: 300px;
+        width: 70%;
+        background-color: lightpink;
+        border: 2px solid black;
+    }
+    
+    /* /THIRD SECTION */
+
+    /* FOURTH SECTION */
+    .container-benefits {
+        flex-direction: column;
+        align-items: center;
+        height: 1250px;
+        width: 100%;
+        background-color: violet;
+    }
+
+    .cards-benefits {
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        padding: 50px 0;
+        /* height: 1300px; */
+        width: 80%;
+        border: 2px solid white;
+    }
+
+    .boxcard {
+        height: 160px;
+        width: 80%;
+        border: 3px dashed black;
+    }
+
+    @media screen and (min-width: 768px) {
+        .cards-benefits {
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .boxcard {
+            width: 45%;
+        }
+    }
+
+    /* /FOURTH SECTION */
