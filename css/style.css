@@ -73,7 +73,7 @@
 
     /* FIRST SECTION */
 
-    .container-section {
+    .container-card {
         width: 100%;
     }
 
@@ -106,5 +106,33 @@
 
         .w-30 {
             width: 64%;
+        }
+    }
+
+
+    .container-planning {
+        padding: 50px 0;
+        /* height: 1000px; */
+        width: 100%;
+        background-color: lightsalmon;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .box-pl {
+        width: 80%;
+        height: 500px;
+        border: 2px solid black;
+    }
+
+    @media screen and (min-width: 991px) {
+        .container-planning {
+            flex-direction: row;
+            justify-content: center;
+            /* height: 770px; */
+        }
+
+        .box-pl {
+            width: 45%;
         }
     }
