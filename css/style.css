@@ -5,9 +5,17 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'PT Sans', sans serif;
+}
+
 /* Utilities */
 .flex {
     display: flex;
+}
+
+.column {
+    flex-direction: column;
 }
   
 .justify-content-between {
@@ -23,6 +31,18 @@
     background-color: white;
     padding: 0.4rem;
     border-radius: 0.9rem;
+}
+
+.btn-blue {
+    border: 0;
+    color: white;
+    background-color: #0084FD;
+    padding: 0.6rem 2.5rem;
+    border-radius: 0.9rem;
+}
+
+.big-icon {
+    font-size: 5rem;
 }
 
 /* Layout */
@@ -90,9 +110,19 @@
 
 /* MAIN */
 .card {
+    align-items:center;
+    justify-content: center;
+    gap: 20px;
+    padding: 25px 25px 0 25px;
+    border-radius: 20px;
+
     /* debug */
-    min-height: 200px;
-    background-color: lightsalmon;
+    /* min-height: 200px; */
+    background-color: #B5DDFF;
+}
+
+.card img {
+    width: 60%;
 }
 
 .testimonial-card {
@@ -108,4 +138,13 @@
   
 .bg-violet {
     background-color: violet;
+}
+
+/* COLOR */
+.bg-purple {
+    background-color: #9792E4;
+}
+
+.bg-white {
+    background-color: white;
 }

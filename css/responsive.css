@@ -58,6 +58,10 @@
         width: 50%;
     }
 
+    .planning-img img {
+        width: 100%;
+    }
+
     .testimonial-card {
         flex-direction: row;
     }
