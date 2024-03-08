@@ -7,137 +7,139 @@
 
     <!-- FONTAWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- /FONTAWESOME -->
 
-    <!-- GOOGLE FONT -->
+    <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- /GOOGLE FONTS -->
 
-    <!-- CUSTOM STYLES -->
+    <!-- CUSTOM STYLE -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- RESPONSIVE -->
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
-
-<body>
-
-    <!-- HEADER -->
+<body> 
+    <!-- Header -->
     <header class="header">
-        <div class="container flex space-between align-items">
-            <div class="header-logo">
-                <a href=""><img src="./img/logo.png" alt=""></a>
-            </div>
-            <nav class="header-menu">
-                <ul>
-                    <li><a href="">List</a></li>
-                    <li><a href="">List</a></li>
-                    <li><a href="">List</a></li>
-                    <li><a href="">List</a></li>
-                    <li><a href="">List</a></li>
-                </ul>
-            </nav>
-            <div class="hamburger-menu">
-                <button class="hamburger-menu-btn">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-            </div>
+        <div class="container flex justify-content-between">
+          <div class="header-logo flex">
+            <img src="./img/logo.png" alt="">
+          </div>
+          <nav class="header-menu">
+            <ul>
+              <li><a href="">Planning</a></li>
+              <li><a href="">Testimonials</a></li>
+              <li><a href="">Features</a></li>
+              <li><a href="">About US</a></li>
+              <li><a href=""><button class="btn-white">Get Started</button></a></li>
+            </ul>
+          </nav>
+  
+          <div class="hamburger-menu">
+            <button class="hamburger-menu-btn">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
         </div>
     </header>
-    <!-- /HEADER -->
+    <!-- /Header -->
 
-    <!-- FIRST SECTION -->
+    <!-- MAIN -->
     <main>
-        <section class="container-card">
-            <div class="cards flex align-center">
-                <div class="card w-30"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
+        <!-- Application section -->
+        <section class="main-section" id="application">
+            <div class="container">
+                <div class="cards">
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                </div>
             </div>
         </section>
-        <!-- /FIRST SECTION -->
-        <!-- SECOND SECTION -->
-        <section class="container-planning flex">
-            <div class="box-pl"></div>
-            
-            <div class="box-pl"></div>
-        </section>
-        <!-- /SECOND SECTION -->
-        <!-- THIRD SECTION testimonial -->
-        <section class="container-testimonial flex">
-            
-            <div class="testimonial-text flex">
-                <div class="mgtop-20">
-                    <h5>TESTIMONIALS</h5>
+        <!-- /Application Section -->
+
+        <!-- Planning section -->
+        <section class="main-section secondary-bg" id="planning">
+            <div class="small-container bg-violet">
+                <div class="cards">
+                    <div class="card text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem unde, nihil laboriosam id nam mollitia magni saepe ipsa quaerat adipisci, error ex praesentium tempora dolorem harum in quam non nobis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem doloremque, voluptate modi odit numquam magni dolore repudiandae, quis est voluptas ab voluptatem. Odio corrupti quae, quo rerum cum mollitia et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, beatae ut nam ducimus sed incidunt magnam dolorum aliquam obcaecati quia eveniet, nemo rerum eos earum autem hic veritatis aspernatur odit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores pariatur sed, reprehenderit ducimus repellendus, quod, odit laboriosam voluptatibus nostrum vero vel voluptatem voluptatum? Harum velit aspernatur aliquam hic quis fugiat?</div>
+                    <div class="card text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quam possimus odio mollitia ipsam necessitatibus voluptatem, ea quae explicabo velit sunt dignissimos esse reprehenderit eligendi atque doloremque similique ipsa quod!</div>
                 </div>
-                <div class="mgtop-20">
-                    <h3>We are committed expert partners</h1>
+            </div>
+        </section>
+        <!-- /Planning section -->
+
+        <!-- Testimonials section -->
+        <section id="testimonials" class="main-section">
+            <div class="container">
+                <h2 class="text-center">TITOTLO PARAGRAFO</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum alias quibusdam tempore nisi, consectetur doloribus numquam animi qui asperiores amet, sint et maxime eligendi in debitis omnis facilis. Laudantium, unde.</p>
+
+                <div class="cards">
+                    <div class="card testimonial-card">
+                        <figure class="testimonial-img">
+                            <img src="./img/testimonial1.jpg" alt="">
+                        </figure>
+                        <blockquote class="testimonial-message">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In id fugiat odit quis. Recusandae nisi sequi officiis rerum facilis. Nulla sit, illum debitis mollitia saepe ex fuga molestias nisi officiis.
+                        </blockquote>
                     </div>
-                <div class="mgtop-20">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium deleniti nemo perferendis, vitae id, incidunt iure architecto cum error, laboriosam aut saepe repudiandae. Cumque, animi vero accusantium impedit similique et.</p>
+                    <div class="card testimonial-card">
+                        <figure class="testimonial-img">
+                            <img src="./img/testimonial1.jpg" alt="">
+                        </figure>
+                        <blockquote class="testimonial-message">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In id fugiat odit quis. Recusandae nisi sequi officiis rerum facilis. Nulla sit, illum debitis mollitia saepe ex fuga molestias nisi officiis.
+                        </blockquote>
+                    </div>
+                    <div class="card testimonial-card">
+                        <figure class="testimonial-img">
+                            <img src="./img/testimonial1.jpg" alt="">
+                        </figure>
+                        <blockquote class="testimonial-message">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In id fugiat odit quis. Recusandae nisi sequi officiis rerum facilis. Nulla sit, illum debitis mollitia saepe ex fuga molestias nisi officiis.
+                        </blockquote>
+                    </div>
                 </div>
             </div>
-
-            <div class="card-testimonial mgtop-20"></div>
-            <div class="card-testimonial mgtop-20"></div>
-            <div class="card-testimonial mgtop-20"></div>
-
         </section>
-        <!-- /THIRD SECTION -->
+        <!-- /Testimonials section -->
 
-        <!-- FOURTH SECTION -->
-        <section class="container-benefits flex">
-            <h3>BENEFITS OF WORKING WITH US</h3>
-            <div class="cards-benefits flex">
-                <div class="boxcard"></div>
-                <div class="boxcard"></div>
-                <div class="boxcard"></div>
-                <div class="boxcard"></div>
-                <div class="boxcard"></div>
-                <div class="boxcard"></div>
+        <!-- Benefits section -->
+        <section class="main-section bg-violet" id="benefits">
+            <div class="cont">
+                <h2 class="text-center"></h2>
+                <div class="cards">
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                </div>
             </div>
         </section>
-        <!-- /FOURTH SECTION -->
+        <!-- /Benefits section -->
 
-        <!-- FIFTH SECTION -->
-        <section class="container-about flex">
-            <div class="about-us flex">
-                <div class="box-about-left"></div>
-                <div class="box-about-right"></div>
-            </div>
-
-        </section>
-        <!-- /FIFTH SECTION -->
-        <!-- SIXTH SECTION -->
-        <section class="container-free">
-            <span>GET STARTED</span>
-            <h3>Simple, Transparent Pricing</h3>
-            <h1>It's Free!</h1>
-            <p>We're still in beta and we will be for awhile. As we add more functionality, we'll look into other plans with more controls.</p>
-            <div>
-                <a href="">
-                    <button>Get Started</button>
-                </a>
-            </div>
-            <span>Copyright 2021 Boolean - Classe XX - <a href="">Privacy policy</a></span>
-        </section>
-        <!-- /SIXTH SECTION -->
-
-    </main>
-
-    <!-- FOOTER -->
-    <footer>
-        <div class="container-footer">
-            <div class="box-footer">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nihil autem accusantium nemo alias, ex praesentium laborum aut?</p>
-            </div>
-            <div class="box-footer">
-                <p><a href="">Lorem ipsum</a> scelerisque mauris pellentesque <a href="">Boolean careers</a></p>
+        <!-- About US -->
+        <div class="main-section" id="about">
+            <div class="container">
+                <div class="cards">
+                    <div class="card text"></div>
+                    <div class="card avatar"></div>
+                </div>
             </div>
         </div>
-    </footer>
-    <!-- /FOOTER -->
+        <!-- /About US -->
+        
+    </main>
+    <!-- /MAIN -->
 
-    
 </body>
+
 </html>
