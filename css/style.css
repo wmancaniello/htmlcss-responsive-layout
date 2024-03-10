@@ -29,7 +29,7 @@ body {
 .btn-white {
     border: 0;
     background-color: white;
-    padding: 0.4rem;
+    padding: 0.6rem 2.5rem;
     border-radius: 0.9rem;
 }
 
@@ -37,6 +37,14 @@ body {
     border: 0;
     color: white;
     background-color: #0084FD;
+    padding: 0.6rem 2.5rem;
+    border-radius: 0.9rem;
+}
+
+.btn-purple {
+    border: 0;
+    color: white;
+    background-color: #9792E4;
     padding: 0.6rem 2.5rem;
     border-radius: 0.9rem;
 }
@@ -50,7 +58,7 @@ body {
     width: 100%;
     padding: 0px 1rem;
     /* debug */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .small-container {
@@ -133,17 +141,80 @@ body {
 }
 
 .testimonial-img img {
-    height: 150px;
-    width: 150x;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
+    object-fit: cover;
+}
 
+#benefits .cards {
+    justify-content: center;
+    align-items: center;
 }
-  
-.bg-violet {
-    background-color: violet;
+
+#benefits .card {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 2rem;
 }
+
+/* ABOUT */
+
+#about-cards .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+/* /ABOUT */
+
+/* GET STARTED */
+#free {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+/* /GET STARTED */
+
+/* FOOTER */
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 6rem;
+    color: white;
+    background-color: #333333;
+}
+
+#footer p a {
+    color: #8480C3;
+}
+/* /FOOTER */
+
 
 /* COLOR */
+
 .bg-purple {
     background-color: #9792E4;
 }
