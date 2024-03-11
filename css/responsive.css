@@ -66,8 +66,10 @@
         flex-direction: row;
     }
 
-    .testimonial-img img {
-        width: 70%;
+
+    #about-cards {
+        display: flex;
+        flex-direction: row;
     }
 }
 
